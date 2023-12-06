@@ -1,0 +1,159 @@
+@media only screen and (max-width:600px) {
+   nav label{
+    display: block;
+    position: absolute;
+    /* background-color: white; */
+    
+    z-index: 1;
+   }
+   nav .bar{
+    color: white;
+   }
+   
+   nav ul{
+    /* margin-top: 30px; */
+    height: 300px;
+    flex-direction: column;
+    float: left;
+    background-color: white;
+    /* position: absolute; */
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+   }
+   #check:checked ~ ul{
+    opacity: 1;
+   }
+   nav li{
+    padding: 10px;
+   }
+   nav ul li:nth-child(1){
+    margin-top: 50px;
+    
+   }
+   nav ul li a{
+    color: black;
+   }
+   
+    .main span img{
+        width: 290px;
+    }
+    .main .span2,
+.span3 {
+    font-size: 1.7rem;
+}
+.info h2{
+    font-size: 2rem;
+}
+.info{
+    font-size: 2rem;
+}
+.info .flag img{
+    width: 40px;
+}
+.container .states .box{
+    width: 200px;
+    margin: 20px 20px;
+}
+
+.nav{
+    flex-direction: column;
+}
+.nav ul{
+    display: none;
+}
+/* .{
+    flex-direction: column;
+} */
+.food-cat{
+    height: 400px;
+}
+.food-cat .cat{
+    /* flex-direction: column; */
+    height: 300px;
+    flex-wrap: wrap;
+}
+.brands{
+    height: 400px;
+}
+.brands .cat{
+    height: 300px;
+    flex-wrap: wrap;
+}
+.brands .cat .box img{
+    height:120px;
+    width: 120px;
+}
+.products .p-wrap{
+    justify-content: center;
+}
+footer{
+    /* height: 100%; */
+    height: auto;
+}
+.box .other_links .o-box{
+    margin-left: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.box .other_links .o-box h6{
+    font-size: 0.9rem;
+}
+
+.box .other_links .o-box .o-info{
+    font-size: 0.9rem;
+}
+.box .other_links .o-box-lineout{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left:230px;
+    max-width: 25%;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:455px){
+    .main span img{
+        width: 260px;
+    }
+    .main .span2,
+.span3 {
+    font-size: 1.5rem;
+}
+    .info{
+        font-size: 1.7rem;
+    }
+    .info h2{
+        font-size: 1.7rem;
+    }
+    .container .states .box{
+        width: 350px;
+    }
+    .box .other_links .o-box{
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width:400px){
+    .info{
+        font-size: 1.5rem;
+    }
+    .info h2{
+        font-size: 1.5rem;
+    }
+    footer{
+    width: 100%;
+   }
+    footer .box section{
+        flex-direction: column;
+    }
+    footer .box section img{
+        /* float: left; */
+        margin-bottom: 10px;
+    }
+    .box .other_links .o-box{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width:350px){
+    
+}
