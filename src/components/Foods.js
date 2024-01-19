@@ -35,7 +35,7 @@ export default function Foods() {
   return (<>
     <div className='nav'>
       <div className="logo">
-         <Link to='/'><img src={Logo} alt="" /></Link>
+         <Link to='/Anilqrr/zomato_clone'><img src={Logo} alt="" /></Link>
       </div>
       <div className="search">
         <div className="select">
