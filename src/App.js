@@ -18,7 +18,7 @@ function App() {
     <>
      <BrowserRouter>
       <Routes>
-        <Route path='/Anilqrr/zomato_clone' element={<><Navbar/><Main/></>}/>
+        <Route path='/' element={<><Navbar/><Main/></>}/>
         <Route path='/bestfoods' element={<Foods/>}/>
       </Routes>
       <Footer/>
